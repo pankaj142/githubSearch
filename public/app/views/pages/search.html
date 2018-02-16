@@ -1,37 +1,4 @@
 
-<style type="text/css">
-      
-    /* CSS used here will be applied after bootstrap.css */
-  body {
-    background-color: #eaeaea;
-  }
-
-  img.avatar {
-    border: 1px solid #eee;
-    width: 150px;
-    height: 150px;
-  }
-
-  .only-bottom-margin {
-    margin-top: 0px;
-  }
-
-  .activity-mini {
-    padding-right: 15px;
-    float: left;
-  }
-
-  .gapping{
-    background-color: #eaeaea;
-    height: 10px;
-  }
-  
-</style>
-
-
-
-
-    <br>
 <div class="container">
   <div class="row">
     <div class="col-md-12">
@@ -74,7 +41,8 @@
                   <a href="#!user/{{user.login}}" target="_blank">
                     <h1 class="only-bottom-margin">{{user.login}}</h1>
                   </a>
-                  <span class="text-muted">Score:</span>{{user.score}}<br><br>
+                  <span class="text-muted"><strong>Score:</strong> </span>
+                  <span style="font-size: 20px;">{{user.score | number :1}} </span> <br><br>
                 </div>
                 <div class="col-md-6">
                   
