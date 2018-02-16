@@ -17,8 +17,9 @@ A service that allow the user to search users on Github using username.
 * NodeJS
 * Expressjs
 * Github API
-* CSS
 * HTML
+* CSS
+* Bootstrap
 * Json
 
 
