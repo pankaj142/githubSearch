@@ -25,3 +25,11 @@ A service that allow the user to search users on Github using username.
 # Heroku Link
 
 Markup : NA
+
+# To start the app follow the commands on command prompt:
+
+1) git clone https://github.com/pankaj142/githubSearch.git
+2) Go to directory githubSearch i.e cd githubSearch
+3) Install dependencies i.e npm install
+4) Start Server i.e node server
+5) Open url "localhost:3000" on browser (probably the port no is 3000, if not then use port no shown when server runs) 
