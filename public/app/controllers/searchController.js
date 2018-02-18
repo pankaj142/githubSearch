@@ -10,7 +10,7 @@ angular.module('searchController',['ngMaterial', 'ngMessages'])
               //no users 
               var confirm = $mdDialog.confirm()
                   .title('Hey, no user is available with this username!')
-                  .textContent('Please, check username spelling and !')
+                  .textContent('Please, check username spelling and try again!')
                   .ariaLabel('Offscreen Demo')
                   .ok('Okay')
 
