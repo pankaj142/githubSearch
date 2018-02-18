@@ -57,18 +57,17 @@
                    </span>
         </div>
         
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#!search" ><span class="glyphicon glyphicon-user"></span> Search People</a></li>
-          
-        </ul>
       </div>
     </nav>
 
-<div class="main">
-  <div ng-view></div>
-</div>
-
-
+	<div class="container">
+	  <a href="#!search" >
+	  <button type="button" class="btn btn-primary active btn-block">
+	    <span class="glyphicon glyphicon-user"></span> Search People
+	  </button>
+	  </a>
+	  <div ng-view></div>
+	</div>
      
 </body>
 </html> 
