@@ -22,9 +22,9 @@ A service that allow the user to search users on Github using username.
 * Json
 
 
-# Heroku Link
+# See App
 
-Markup : NA
+Heroku Link: https://github-search-application1.herokuapp.com/ 
 
 # To start the app follow the commands on command prompt:
 
