@@ -1,5 +1,5 @@
 
-  <div class="row">
+  <div class="row" ng-if="showUser">
     <div class="col-md-12">
       <div class="panel panel-default">
         <div class="panel-body">
@@ -18,6 +18,7 @@
                                   <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
                                   <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
               </ul>
+
               <span ng-if="userDetails.hireable">
                 		<h3><strong>Available to hire!</strong>  </h3>
                 </span>
@@ -57,6 +58,7 @@
 
                 <div class="col-md-4">
                 	<div class="row">
+                		
                 		<div class="col-sm-6">
                 			<span class="label label-default"> {{userDetails.followers}} followers</span>
                 		<span class="label label-primary"> {{userDetails.following}} following</span>
@@ -65,6 +67,7 @@
                 			<span class="label label-success"> {{userDetails.public_repos}} Public Repos</span>
                   		<span class="label label-info"> {{userDetails.public_gists}} Public Gists</span>
                 		</div>
+                		
                 	</div>
                 		<br><br>
                 			<a href={{userDetails.html_url}} target="_blank">
@@ -76,6 +79,7 @@
                     <div style="margin-top:100px;">
                     	<small class="text-muted"><strong>Created on</strong>  {{created_at}}</small>
                     </div> 
+                  	
                 </div>
               </div>
             </div>
