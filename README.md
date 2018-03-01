@@ -1,5 +1,4 @@
 # githubSearch
-
 A service that allow the user to search users on Github using username.
 
 # Functionalities
